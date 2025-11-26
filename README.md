@@ -1,4 +1,4 @@
-# Portfolio MA2003B -
+# Portfolio MA2003B
 
 Este repositorio contiene el portfolio completo del curso MA2003B, incluyendo análisis estadísticos multivariados aplicados a casos reales.
 

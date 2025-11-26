@@ -7,6 +7,7 @@ Este proyecto desarrolla un **sistema de análisis de riesgo crediticio** para L
 ## Objetivo
 
 Construir modelos predictivos capaces de:
+
 - Distinguir entre clientes confiables y no confiables
 - Identificar las variables más relevantes para predecir el riesgo de incumplimiento
 - Comparar el rendimiento de diferentes técnicas de clasificación (LDA vs QDA)
@@ -15,10 +16,10 @@ Construir modelos predictivos capaces de:
 
 ### Técnicas Implementadas
 
-| Modelo | Descripción |
-|--------|-------------|
-| **LDA** (Linear Discriminant Analysis) | Asume covarianza igual entre clases, genera fronteras de decisión lineales |
-| **QDA** (Quadratic Discriminant Analysis) | Permite covarianzas diferentes por clase, genera fronteras cuadráticas |
+| Modelo                                    | Descripción                                                                |
+| ----------------------------------------- | -------------------------------------------------------------------------- |
+| **LDA** (Linear Discriminant Analysis)    | Asume covarianza igual entre clases, genera fronteras de decisión lineales |
+| **QDA** (Quadratic Discriminant Analysis) | Permite covarianzas diferentes por clase, genera fronteras cuadráticas     |
 
 ### Flujo del Análisis
 
@@ -37,20 +38,20 @@ El archivo `credit_risk_data-1.csv` contiene 2,500 registros con las siguientes 
 
 ### Variables Predictoras
 
-| Variable | Descripción |
-|----------|-------------|
-| `loan_amount` | Monto del préstamo solicitado ($5,000 - $500,000) |
-| `annual_income` | Ingreso anual del solicitante |
-| `credit_score` | Puntuación crediticia |
-| `payment_history_score` | Historial de pagos previos |
-| `debt_to_income_ratio` | Relación deuda/ingreso |
-| `job_stability_score` | Estabilidad laboral |
-| `credit_utilization` | Porcentaje de uso del crédito disponible |
-| `employment_years` | Años de empleo |
-| `asset_value` | Valor de activos |
-| `savings_ratio` | Ratio de ahorro |
-| `age` | Edad del solicitante |
-| `residential_stability` | Estabilidad residencial |
+| Variable                | Descripción                                       |
+| ----------------------- | ------------------------------------------------- |
+| `loan_amount`           | Monto del préstamo solicitado ($5,000 - $500,000) |
+| `annual_income`         | Ingreso anual del solicitante                     |
+| `credit_score`          | Puntuación crediticia                             |
+| `payment_history_score` | Historial de pagos previos                        |
+| `debt_to_income_ratio`  | Relación deuda/ingreso                            |
+| `job_stability_score`   | Estabilidad laboral                               |
+| `credit_utilization`    | Porcentaje de uso del crédito disponible          |
+| `employment_years`      | Años de empleo                                    |
+| `asset_value`           | Valor de activos                                  |
+| `savings_ratio`         | Ratio de ahorro                                   |
+| `age`                   | Edad del solicitante                              |
+| `residential_stability` | Estabilidad residencial                           |
 
 ### Variable Objetivo
 
@@ -60,13 +61,13 @@ El archivo `credit_risk_data-1.csv` contiene 2,500 registros con las siguientes 
 
 ### Top 5 Predictores de Riesgo (según coeficientes LDA)
 
-| Variable | Coeficiente | Interpretación |
-|----------|-------------|----------------|
-| Payment History Score | -15.54 | Historial pobre aumenta riesgo |
-| Job Stability Score | -13.07 | Inestabilidad laboral aumenta riesgo |
-| Credit Utilization | +11.64 | Alta utilización indica riesgo |
-| Debt-to-Income Ratio | +4.51 | Alta deuda relativa aumenta riesgo |
-| Credit Score | -3.94 | Score bajo correlaciona con default |
+| Variable              | Coeficiente | Interpretación                       |
+| --------------------- | ----------- | ------------------------------------ |
+| Payment History Score | -15.54      | Historial pobre aumenta riesgo       |
+| Job Stability Score   | -13.07      | Inestabilidad laboral aumenta riesgo |
+| Credit Utilization    | +11.64      | Alta utilización indica riesgo       |
+| Debt-to-Income Ratio  | +4.51       | Alta deuda relativa aumenta riesgo   |
+| Credit Score          | -3.94       | Score bajo correlaciona con default  |
 
 ### Resultados de los Modelos
 
@@ -81,41 +82,42 @@ Ambos modelos alcanzaron **rendimiento perfecto** en el conjunto de prueba:
 Se recomienda **LDA** por su simplicidad e interpretabilidad, dado que ambos modelos obtuvieron resultados equivalentes.
 
 ## Estructura del Proyecto
+
 ```
 case-02-discriminant-analysis/
 │
 ├── data/
-│   └── credit_risk_data-1.csv        
+│   └── credit_risk_data-1.csv
 │
 ├── notebooks/
-│   ├── LendSmart_Analysis.ipynb      
-│   └── LendSmart_Analysis.pdf        
+│   ├── LendSmart_Analysis.ipynb
+│   └── LendSmart_Analysis.pdf
 │
 ├── reports/
-│   ├── business_report.pdf           
-│   └── LendSmart credit risk analysis.pdf  
+│   ├── business_report.pdf
+│   └── LendSmart credit risk analysis.pdf
 │
 ├── visualizations/
-│   ├── confusion_matrix_LDA.png      
-│   ├── confusion_matrix_QDA.png      
-│   ├── correlation_matrix.png        
-│   ├── credit_score_*.png            
-│   ├── credit_utilization_*.png      
-│   ├── debt_to_income_ratio_*.png    
-│   └── ...                           
+│   ├── confusion_matrix_LDA.png
+│   ├── confusion_matrix_QDA.png
+│   ├── correlation_matrix.png
+│   ├── credit_score_*.png
+│   ├── credit_utilization_*.png
+│   ├── debt_to_income_ratio_*.png
+│   └── ...
 │
 └── README.md
 ```
 
 ## Cómo ejecutar
 
-'''
+```
 git clone <repository-url>
 cd case-02-discriminant-analysis/notebooks
 jupyter notebook notebooks/LendSmart_Analysis.ipynb
-'''
+```
 
 ## Documentación adicional
-- Reporte ejecutivo 
-- Presentación ejecutiva 
+- Reporte ejecutivo
+- Presentación ejecutiva
 

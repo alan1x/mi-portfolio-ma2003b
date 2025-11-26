@@ -10,6 +10,12 @@
 
 </div>
 
+# Team members
+
+- Luis Alan Morales Castillo (A01659147)
+- Paulina Díaz Arroyo (A01029592)
+- Rodrigo Jiménez Ortiz (A01029623)
+
 ## Contributors
 
 <a href="https://github.com/alan1x/mi-portfolio-ma2003b/graphs/contributors">

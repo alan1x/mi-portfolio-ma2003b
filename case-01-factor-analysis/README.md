@@ -1,8 +1,8 @@
-**Contexto del negocio**
+## ***Contexto del negocio***
 
 TechnoServe Solutions es una empresa que ofrece servicios tecnológicos y de consultoría. Recopiló encuestas de 300 clientes para evaluar 25 dimensiones de satisfacción. El problema central es identificar qué factores impulsan realmente la satisfacción, la renovación, el crecimiento de ingresos y las recomendaciones de los clientes.
 
-*Importancia estratégica del análisis*
+### **Importancia estratégica del análisis**
 
 Identificar los factores clave que impulsan los resultados de negocio permite:
 

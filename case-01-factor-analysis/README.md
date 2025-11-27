@@ -18,6 +18,7 @@ El análisis es clave porque:
 - Genera un mapa claro de prioridades para operaciones, ventas y producto.
 
 ## ***Metodología***
+
 Método multivariado aplicado. Se emplearon:
 
 ### **Análisis Factorial**
@@ -38,6 +39,33 @@ Se ejecutaron regresiones independientes usando los puntajes factoriales como pr
 - Renewal Likelihood
 - Revenue Growth
 - Referrals
+
+### **Justificación de la elección**
+
+- El EFA permite revelar patrones latentes y reducir dimensionalidad.
+
+- La regresión permite entender el impacto cuantitativo de cada factor.
+
+- Juntos, permiten:
+
+    - Interpretabilidad del modelo.
+
+    - Priorización de acciones basadas en impacto estadístico.
+
+### **Herramientas y librerías utilizadas**
+
+- Pandas → limpieza y manejo de datos
+
+- NumPy → cálculos matriciales
+
+- Scikit-Learn → estandarización y extracción de componentes
+
+- FactorAnalyzer → KMO, Bartlett, rotación Varimax
+
+- Statsmodels → regresiones OLS
+
+- Matplotlib / Seaborn → gráficos del análisis (heatmaps, scree plot)
+
 
 ## ***Datos***
 • Descripción del dataset

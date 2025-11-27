@@ -123,7 +123,7 @@ Se ejecutaron regresiones independientes usando los puntajes factoriales como pr
 
 ### **Link al diccionario de datos**
 
-Diccionario de datos: [Descargar diccionario de datos](../diccionario_datos.pdf)
+[Descargar diccionario de datos](../diccionario_datos.pdf)
 
 ## ***Hallazgos principales***
 • 3-5 hallazgos clave en bullet points

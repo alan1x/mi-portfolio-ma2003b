@@ -142,7 +142,7 @@ Se ejecutaron regresiones independientes usando los puntajes factoriales como pr
 
 ### **Visualización destacada**
 
-[Scree Plot](visualization/scree_plot.png)
+[Scree Plot](visualizations/scree_plot.png)
 
 El Scree Plot muestra la varianza explicada por cada componente y justifica la selección de 5 factores, al observarse un punto de inflexión claro (“elbow”) después del quinto componente.
 

@@ -126,10 +126,61 @@ Se ejecutaron regresiones independientes usando los puntajes factoriales como pr
 [Descargar diccionario de datos](data/customer_satisfaction_data.csv)
 
 ## ***Hallazgos principales***
-• 3-5 hallazgos clave en bullet points
-• Visualización destacada (imagen embebida)
-• Métricas de performance del modelo
+
+### **Hallazgos clave**
+
+- Cinco factores explican el 65–70% de la varianza del dataset.
+- Los factores Técnico y Relacional son los de mayor impacto estadístico en:
+    - Overall Satisfaction
+    - NPS
+    - Renewal Likelihood
+    - Revenue Growth
+    - Referrals
+- Los modelos de regresión presentan desempeño sólido (MSE 0.28–0.42).
+- El notebook confirma mediante heatmaps que los factores poseen estructuras claras.
+- El scree plot del cuaderno muestra la caída natural que justifica 5 factores.
+
+### **Visualización destacada**
+
+[Scree Plot](visualization/scree_plot.png)
+
+El Scree Plot muestra la varianza explicada por cada componente y justifica la selección de 5 factores, al observarse un punto de inflexión claro (“elbow”) después del quinto componente.
+
+
+### **Métricas de rendimiento del modelo**
+
+| **Métrica**            | **Valores**                           |
+| ---------------------- | ------------------------------------- |
+| **MSE (modelos)**      | 0.28 – 0.42                           |
+| **Varianza explicada** | 58–68%                                |
+| **Significancia**      | p < 0.05 en los primeros dos factores |
+
+
 ## ***Recomendaciones de negocio***
-• 3 recomendaciones accionables
-• Impacto esperado
-• Próximos pasos
+
+### **Invertir estratégicamente en Entrega Técnica e Innovación**
+
+- Refuerzo de skills técnicos (integración, documentación, expertise).
+- Crear laboratorios de innovación.
+- Protocolos de resolución rápida de problemas.
+- Impacto esperado: Mejora en satisfacción, NPS, crecimiento y referidos.
+
+### **Fortalecer la Relación Comercial y Gestión de Cuenta**
+
+- Establecer KPIs estrictos para “responsiveness”.
+- Check-ins ejecutivos trimestrales.
+- Estandarizar protocolos de comunicación y partnership frameworks.
+- Impacto esperado: Mayores renovaciones y NPS.
+
+### **Estandarizar Project Execution & Governance**
+
+- Aplicar metodologías uniformes de gestión de proyectos.
+- Mejorar predicciones de tiempo y costo.
+- Control de riesgos y cambios más proactivo.
+- Impacto esperado: Reducción de fricciones y soporte al crecimiento de ingresos.
+
+### **Próximos pasos**
+
+- Crear dashboards con los 5 factores + KPIs.
+- Actualizar el análisis cada trimestre con datos nuevos.
+- Diseñar iniciativas específicas para cada factor.

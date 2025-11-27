@@ -184,3 +184,43 @@ El Scree Plot muestra la varianza explicada por cada componente y justifica la s
 - Crear dashboards con los 5 factores + KPIs.
 - Actualizar el análisis cada trimestre con datos nuevos.
 - Diseñar iniciativas específicas para cada factor.
+
+### **Estructura del Proyecto**
+
+```
+case-01-factor-analysis/
+│
+├── data/
+│   ├── customer_satisfaction_data_dictionary.md
+│   └── customer_satisfaction_data.csv
+│
+├── notebooks/
+│   ├── factor_analysis.ipynb
+│   └── factor_analysis.pdf
+│
+├── reports/
+│   └── executive_summary.pdf
+│
+├── visualizations/
+│   ├── correlation_matrix.png
+│   ├── factor_impact_heatmap.png
+│   ├── factor_scores_distribution.png
+│   ├── nps_score_predict.png
+│   ├── overall_satisfaction_predict.png
+│   ├── predictive_power_factors.png
+│   └── ...
+│
+└── README.md
+```
+
+## Cómo ejecutar
+
+```
+git clone <repository-url>
+cd case-01-factor-analysis/notebooks
+jupyter notebook notebooks/factor_analysis.ipynb
+```
+
+## Documentación adicional
+- Reporte ejecutivo
+- Video ejecutivo

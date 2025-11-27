@@ -4,5 +4,5 @@
 | **Objetivo principal**  | Reducción de dimensionalidad                  | Clasificación                     | Segmentación         |
 | **Input requerido**     | Variables continuas                           | Variable categórica + predictores | Variables continuas  |
 | **Output principal**    | Factores latentes | Funciones discriminantes | Grupos/clusters |
-| **Caso de uso ideal**   | Identificar dimensiones ocultas que explican la variabilidad de un conjunto de variables (psicometría, marketing, satisfacción).
-| **Limitaciones**        |
+| **Caso de uso ideal**   | Identificar dimensiones ocultas que explican la variabilidad de un conjunto de variables (psicometría, marketing, satisfacción) | Clasificar observaciones en grupos existentes y entender qué variables discriminan entre clases | Encontrar grupos naturales sin etiquetas previas |
+| **Limitaciones**        | Requiere alta correlación entre variables; resultados pueden ser subjetivos; sensible a outliers y escala | Supone normalidad multivariada y varianzas similares entre grupos y puede ser sensible a multicolinealidad | Puede generar clusters poco interpretables; depende de hiperparámetros (k); sensible a escala y outliers |

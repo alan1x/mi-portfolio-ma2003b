@@ -1,0 +1,19 @@
+1. Contexto del negocio
+• Descripción del cliente y problema
+• Importancia estratégica del análisis
+2. Metodología
+• Método multivariado aplicado
+• Justificación de la elección
+• Herramientas y librerías utilizadas
+3. Datos
+• Descripción del dataset
+• Variables clave
+• Link al diccionario de datos
+4. Hallazgos principales
+• 3-5 hallazgos clave en bullet points
+• Visualización destacada (imagen embebida)
+• Métricas de performance del modelo
+5. Recomendaciones de negocio
+• 3 recomendaciones accionables
+• Impacto esperado
+• Próximos pasos

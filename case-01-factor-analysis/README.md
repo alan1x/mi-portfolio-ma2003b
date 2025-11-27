@@ -1,29 +1,53 @@
 ## ***Contexto del negocio***
 
-TechnoServe Solutions es una empresa que ofrece servicios tecnológicos y de consultoría. Recopiló encuestas de 300 clientes para evaluar 25 dimensiones de satisfacción. El problema central es identificar qué factores impulsan realmente la satisfacción, la renovación, el crecimiento de ingresos y las recomendaciones de los clientes.
+### **Descripción del cliente y problema**
+
+TechnoServe Solutions recolectó datos de 300 clientes a través de 25 indicadores de satisfacción con el objetivo de entender:
+
+- Qué impulsa la satisfacción general.
+- Qué factores predicen mejor la renovación, el NPS, el crecimiento y los referidos.
+- Dónde priorizar inversiones para mejorar la experiencia del cliente.
 
 ### **Importancia estratégica del análisis**
 
-Identificar los factores clave que impulsan los resultados de negocio permite:
+El análisis es clave porque:
 
-- Priorizar inversiones donde más impacto generan.
-- Prevenir pérdida de clientes (churn).
-- Mejorar satisfacción, NPS, crecimiento y referidos de manera alineada al valor percibido por el cliente.
-- Enfocar la estrategia en los dos factores que demostraron ser estadísticamente determinantes: Entrega Técnica & Soluciones y Relación & Gestión de Cuenta.
+- Reduce 25 indicadores en 5 factores estratégicos (simplifica la toma de decisiones).
+- Permite dirigir inversiones a los drivers estadísticamente más influyentes.
+- Conecta métricas de satisfacción con impacto financiero directo (renovación y crecimiento de ingresos).
+- Genera un mapa claro de prioridades para operaciones, ventas y producto.
 
-2. Metodología
-• Método multivariado aplicado
-• Justificación de la elección
-• Herramientas y librerías utilizadas
-3. Datos
+## ***Metodología***
+Método multivariado aplicado. Se emplearon:
+
+### **Análisis Factorial**
+
+- Normalización: StandardScaler
+- Validación:
+    - KMO = 0.94 (excelente adecuación)
+    - Bartlett p < 0.001 (matriz apta)
+- Extracción inicial con sklearn y rotación Varimax.
+- Se retuvieron 5 factores, confirmados por scree plot.
+
+### **Modelos de regresión OLS**
+
+Se ejecutaron regresiones independientes usando los puntajes factoriales como predictores para:
+
+- Overall Satisfaction
+- NPS
+- Renewal Likelihood
+- Revenue Growth
+- Referrals
+
+## ***Datos***
 • Descripción del dataset
 • Variables clave
 • Link al diccionario de datos
-4. Hallazgos principales
+## ***Hallazgos principales***
 • 3-5 hallazgos clave en bullet points
 • Visualización destacada (imagen embebida)
 • Métricas de performance del modelo
-5. Recomendaciones de negocio
+## ***Recomendaciones de negocio***
 • 3 recomendaciones accionables
 • Impacto esperado
 • Próximos pasos

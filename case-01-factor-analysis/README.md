@@ -69,7 +69,7 @@ Se ejecutaron regresiones independientes usando los puntajes factoriales como pr
     - Valor comercial
     - Soporte y documentación
 
-### **Procesamiento realizado (del notebook):**
+### **Procesamiento realizado**
 
 - Imputación por media
 - Estandarización con StandardScaler

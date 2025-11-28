@@ -18,11 +18,11 @@
 
 ## Study cases
 
-| Caso                              | Método                | Pregunta de Negocio                                             | Hallazgo Clave                                                                                | Link                                                                                |
-| --------------------------------- | --------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| TechnoServe Customer Satisfaction | Factor Analysis       | ¿Qué dimensiones latentes impulsan la satisfacción del cliente? | 5 factores explican 67% de varianza; Excelencia Técnica es el más importante                  | [Ver caso →](./case-01-factor-analysis/notebooks/factor_analysis.ipynb)             |
-| LendSmart Credit Risk             | Discriminant Analysis | ¿Cómo clasificar aplicantes de crédito en categorías de riesgo? | Modelo con 85% de accuracy; ingreso y historial crediticio son predictores clave              | [Ver caso →](./case-02-discriminant-analysis/notebooks/discriminant_analysis.ipynb) |
-| ShopSmart Customer Segmentation   | Cluster Analysis      | ¿Qué segmentos naturales existen en la base de clientes?        | 5 clusters identificados; "High-Value Loyalists" representan 18% pero generan 45% de ingresos | [Ver caso →](./case-03-cluster-analysis/notebooks/cluster_analysis.ipynb)           |
+| Case                              | Method                | Business Question                                       | Key Finding                                                                             | Link                                                                                 |
+| --------------------------------- | --------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| TechnoServe Customer Satisfaction | Factor Analysis       | What latent dimensions drive customer satisfaction?     | 5 factors explain 67% of variance; Technical Excellence is the most important           | [View case →](./case-01-factor-analysis/notebooks/factor_analysis.ipynb)             |
+| LendSmart Credit Risk             | Discriminant Analysis | How to classify credit applicants into risk categories? | Model with 85% accuracy; income and credit history are key predictors                   | [View case →](./case-02-discriminant-analysis/notebooks/discriminant_analysis.ipynb) |
+| ShopSmart Customer Segmentation   | Cluster Analysis      | What natural segments exist in the customer base?       | 5 clusters identified; "High-Value Loyalists" represent 18% but generate 45% of revenue | [View case →](./case-03-cluster-analysis/notebooks/cluster_analysis.ipynb)           |
 
 ## Contributors
 

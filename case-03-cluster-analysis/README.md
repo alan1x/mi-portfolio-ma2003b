@@ -113,21 +113,50 @@ jupyter notebook mega_mart.ipynb
 case-03-customer-segmentation/
 │
 ├── data/
-│   └── retail_customer_data.csv
+│   ├── retail_customer_data.csv
+│   ├── retail_customer_data_with_labels.csv
+│   └── retail_customer_data_dictionary.pdf
 │
 ├── notebooks/
+│   ├── cluster_analysis.ipynb
 │   └── mega_mart.ipynb
 │
 ├── reports/
+│   ├── cluster_analysis.pdf
 │   ├── executive_summary.pdf
+│   ├── technical_report.pdf
 │   └── README.md
 │
 └── visualizations/
+    ├── cluster_profiles/
+    │   ├── cluster_profiles_k3.png
+    │   └── cluster_profiles_k4.png
+    │
+    ├── correlation_analysis/
+    │   └── correlation_matrix_heatmap.png
+    │
     ├── dendrograms/
+    │   ├── Focused_Dendrogram_Ward_Linkage.png
+    │   └── hierarchical_clustering_dendrograms.png
+    │
     ├── elbow_silhouette_plots/
-    ├── cluster_heatmaps/
-    └── pca_scatter_plots/
-```
+    │   ├── elbow_and_silhouette_plots.png
+    │   ├── elbow_plot_k_vs_inertia.png
+    │   ├── silhouette_plot_k3.png
+    │   ├── silhouette_plot_k4.png
+    │   ├── silhouette_score_vs_k.png
+    │   └── silhouette_score_vs_k_line_plot.png
+    │
+    ├── pca_scatter_plots/
+    │   ├── PCA_Projection_of_Clusters_K3.png
+    │   ├── PCA_Projection_of_Clusters_K3_with_Centroids.png
+    │   ├── PCA_Projection_of_Clusters_K4.png
+    │   └── PCA_Projection_of_Clusters_K4_with_Centroids.png
+    │
+    ├── variable_analysis/
+    │   ├── key_variable_relationships.png
+    │   ├── variable_distributions_histograms.png
+    │   └── outlier_detection_boxplots.png
 
 ---
 

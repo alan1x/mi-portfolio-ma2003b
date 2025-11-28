@@ -1,87 +1,87 @@
 # LendSmart Credit Risk Analysis
 
-## Descripción del Proyecto
+## Project Description
 
-Este proyecto desarrolla un **sistema de análisis de riesgo crediticio** para LendSmart, una institución financiera que busca optimizar sus decisiones de aprobación de préstamos. Utilizando técnicas de **Análisis Discriminante**, el proyecto clasifica a los solicitantes de crédito según su probabilidad de incumplimiento (default).
+This project develops a **credit risk analysis system** for LendSmart, a financial institution seeking to optimize its loan approval decisions. Using **Discriminant Analysis** techniques, the project classifies credit applicants based on their probability of default.
 
-## Objetivo
+## Objective
 
-Construir modelos predictivos capaces de:
+Build predictive models capable of:
 
-- Distinguir entre clientes confiables y no confiables
-- Identificar las variables más relevantes para predecir el riesgo de incumplimiento
-- Comparar el rendimiento de diferentes técnicas de clasificación (LDA vs QDA)
+- Distinguishing between reliable and unreliable customers
+- Identifying the most relevant variables for predicting default risk
+- Comparing the performance of different classification techniques (LDA vs QDA)
 
-## Metodología
+## Methodology
 
-### Técnicas Implementadas
+### Implemented Techniques
 
-| Modelo                                    | Descripción                                                                |
-| ----------------------------------------- | -------------------------------------------------------------------------- |
-| **LDA** (Linear Discriminant Analysis)    | Asume covarianza igual entre clases, genera fronteras de decisión lineales |
-| **QDA** (Quadratic Discriminant Analysis) | Permite covarianzas diferentes por clase, genera fronteras cuadráticas     |
+| Model                                     | Description                                                              |
+| ----------------------------------------- | ------------------------------------------------------------------------ |
+| **LDA** (Linear Discriminant Analysis)    | Assumes equal covariance between classes, generates linear decision boundaries |
+| **QDA** (Quadratic Discriminant Analysis) | Allows different covariances per class, generates quadratic boundaries   |
 
-### Flujo del Análisis
+### Analysis Workflow
 
-1. **Carga y exploración de datos** - Inspección inicial del dataset
-2. **Análisis Exploratorio (EDA)** - Correlaciones y distribuciones
-3. **Preprocesamiento** - División train/test y estandarización
-4. **Pruebas de supuestos** - Normalidad multivariada y homogeneidad de covarianzas
-5. **Modelado LDA** - Entrenamiento e interpretación de coeficientes
-6. **Modelado QDA** - Entrenamiento con covarianzas flexibles
-7. **Evaluación** - Métricas, matrices de confusión y curvas ROC
-8. **Conclusiones** - Selección del modelo óptimo
+1. **Data loading and exploration** - Initial dataset inspection
+2. **Exploratory Data Analysis (EDA)** - Correlations and distributions
+3. **Preprocessing** - Train/test split and standardization
+4. **Assumption testing** - Multivariate normality and covariance homogeneity
+5. **LDA Modeling** - Training and coefficient interpretation
+6. **QDA Modeling** - Training with flexible covariances
+7. **Evaluation** - Metrics, confusion matrices and ROC curves
+8. **Conclusions** - Optimal model selection
 
-## Variables del Dataset
+## Dataset Variables
 
-El archivo `credit_risk_data-1.csv` contiene 2,500 registros con las siguientes variables:
+The file `credit_risk_data-1.csv` contains 2,500 records with the following variables:
 
-### Variables Predictoras
+### Predictor Variables
 
-| Variable                | Descripción                                       |
+| Variable                | Description                                       |
 | ----------------------- | ------------------------------------------------- |
-| `loan_amount`           | Monto del préstamo solicitado ($5,000 - $500,000) |
-| `annual_income`         | Ingreso anual del solicitante                     |
-| `credit_score`          | Puntuación crediticia                             |
-| `payment_history_score` | Historial de pagos previos                        |
-| `debt_to_income_ratio`  | Relación deuda/ingreso                            |
-| `job_stability_score`   | Estabilidad laboral                               |
-| `credit_utilization`    | Porcentaje de uso del crédito disponible          |
-| `employment_years`      | Años de empleo                                    |
-| `asset_value`           | Valor de activos                                  |
-| `savings_ratio`         | Ratio de ahorro                                   |
-| `age`                   | Edad del solicitante                              |
-| `residential_stability` | Estabilidad residencial                           |
+| `loan_amount`           | Requested loan amount ($5,000 - $500,000)         |
+| `annual_income`         | Applicant's annual income                         |
+| `credit_score`          | Credit score                                      |
+| `payment_history_score` | Previous payment history                          |
+| `debt_to_income_ratio`  | Debt-to-income ratio                              |
+| `job_stability_score`   | Job stability                                     |
+| `credit_utilization`    | Percentage of available credit used               |
+| `employment_years`      | Years of employment                               |
+| `asset_value`           | Asset value                                       |
+| `savings_ratio`         | Savings ratio                                     |
+| `age`                   | Applicant's age                                   |
+| `residential_stability` | Residential stability                             |
 
-### Variable Objetivo
+### Target Variable
 
-- `loan_status`: Estado del préstamo (0 = Cumplimiento, 1 = Incumplimiento)
+- `loan_status`: Loan status (0 = Compliance, 1 = Default)
 
-## Principales Hallazgos
+## Key Findings
 
-### Top 5 Predictores de Riesgo (según coeficientes LDA)
+### Top 5 Risk Predictors (based on LDA coefficients)
 
-| Variable              | Coeficiente | Interpretación                       |
+| Variable              | Coefficient | Interpretation                       |
 | --------------------- | ----------- | ------------------------------------ |
-| Payment History Score | -15.54      | Historial pobre aumenta riesgo       |
-| Job Stability Score   | -13.07      | Inestabilidad laboral aumenta riesgo |
-| Credit Utilization    | +11.64      | Alta utilización indica riesgo       |
-| Debt-to-Income Ratio  | +4.51       | Alta deuda relativa aumenta riesgo   |
-| Credit Score          | -3.94       | Score bajo correlaciona con default  |
+| Payment History Score | -15.54      | Poor history increases risk          |
+| Job Stability Score   | -13.07      | Job instability increases risk       |
+| Credit Utilization    | +11.64      | High utilization indicates risk      |
+| Debt-to-Income Ratio  | +4.51       | High relative debt increases risk    |
+| Credit Score          | -3.94       | Low score correlates with default    |
 
-### Resultados de los Modelos
+### Model Results
 
-Ambos modelos alcanzaron **rendimiento perfecto** en el conjunto de prueba:
+Both models achieved **perfect performance** on the test set:
 
-- **AUC Score LDA**: 1.0000
-- **AUC Score QDA**: 1.0000
-- Precisión, Recall y F1-Score: 100%
+- **LDA AUC Score**: 1.0000
+- **QDA AUC Score**: 1.0000
+- Precision, Recall and F1-Score: 100%
 
-### Recomendación Final
+### Final Recommendation
 
-Se recomienda **LDA** por su simplicidad e interpretabilidad, dado que ambos modelos obtuvieron resultados equivalentes.
+**LDA** is recommended for its simplicity and interpretability, given that both models achieved equivalent results.
 
-## Estructura del Proyecto
+## Project Structure
 
 ```
 case-02-discriminant-analysis/
@@ -109,14 +109,14 @@ case-02-discriminant-analysis/
 └── README.md
 ```
 
-## Cómo ejecutar
+## How to run
 
 ```
-git clone <repository-url>
+git clone <https://github.com/alan1x/mi-portfolio-ma2003b.git>
 cd case-02-discriminant-analysis/notebooks
 jupyter notebook notebooks/discriminant_analysis.ipynb
 ```
 
-## Documentación adicional
-- Reporte ejecutivo
-- Presentación ejecutiva
+## Additional Documentation
+- Executive Summary
+- Executive Presentation

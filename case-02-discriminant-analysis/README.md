@@ -112,7 +112,7 @@ case-02-discriminant-analysis/
 ## How to run
 
 ```bash
-git clone <https://github.com/alan1x/mi-portfolio-ma2003b.git>
+git clone https://github.com/alan1x/mi-portfolio-ma2003b.git
 cd case-02-discriminant-analysis/notebooks
 jupyter notebook notebooks/discriminant_analysis.ipynb
 ```

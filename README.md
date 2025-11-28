@@ -24,6 +24,8 @@
 | LendSmart Credit Risk             | Discriminant Analysis | How to classify credit applicants into risk categories? | Model with 85% accuracy; income and credit history are key predictors                   | [View case →](./case-02-discriminant-analysis/notebooks/discriminant_analysis.ipynb) |
 | ShopSmart Customer Segmentation   | Cluster Analysis      | What natural segments exist in the customer base?       | 5 clusters identified; "High-Value Loyalists" represent 18% but generate 45% of revenue | [View case →](./case-03-cluster-analysis/notebooks/cluster_analysis.ipynb)           |
 
+## Setup
+
 ## Contributors
 
 <a href="https://github.com/alan1x/mi-portfolio-ma2003b/graphs/contributors">

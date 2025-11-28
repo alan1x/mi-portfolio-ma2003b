@@ -12,7 +12,7 @@
 
 # Team members
 
-- Luis Alan Morales Castillo (A01659147
+- Luis Alan Morales Castillo (A01659147)
 - Paulina Díaz Arroyo (A01029592)
 - Rodrigo Jiménez Ortiz (A01029623)
 

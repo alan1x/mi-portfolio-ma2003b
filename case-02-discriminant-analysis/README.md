@@ -90,12 +90,12 @@ case-02-discriminant-analysis/
 │   └── credit_risk_data-1.csv
 │
 ├── notebooks/
-│   ├── LendSmart_Analysis.ipynb
-│   └── LendSmart_Analysis.pdf
+│   ├── discriminant_analysis.ipynb
+│   └── discriminant_analysis.pdf
 │
 ├── reports/
 │   ├── business_report.pdf
-│   └── LendSmart credit risk analysis.pdf
+│   └── presentation.pdf
 │
 ├── visualizations/
 │   ├── confusion_matrix_LDA.png
@@ -114,10 +114,9 @@ case-02-discriminant-analysis/
 ```
 git clone <repository-url>
 cd case-02-discriminant-analysis/notebooks
-jupyter notebook notebooks/LendSmart_Analysis.ipynb
+jupyter notebook notebooks/discriminant_analysis.ipynb
 ```
 
 ## Documentación adicional
 - Reporte ejecutivo
 - Presentación ejecutiva
-

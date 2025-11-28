@@ -21,5 +21,5 @@
 <a href="https://github.com/alan1x/mi-portfolio-ma2003b/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=alan1x/mi-portfolio-ma2003b" />
 
-  <img src="https://avatars.githubusercontent.com/u/142256106?s=64&v=4" />
+  <img src="https://avatars.githubusercontent.com/u/142256106?v=4" />
 </a>

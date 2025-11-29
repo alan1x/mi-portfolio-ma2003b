@@ -103,7 +103,8 @@ Identify distinct customer segments based on 9 behavioral variables to:
 ## How to Run
 
 ```bash
-git clone <repository-url>
+git ```bash
+git clone https://github.com/alan1x/mi-portfolio-ma2003b.git
 cd case-03-customer-segmentation/
 jupyter notebook mega_mart.ipynb
 ```
@@ -167,4 +168,5 @@ case-03-customer-segmentation/
 
 - Executive Summary.
 - Executive Presentation.
+- [Video Presentation] 
 ```

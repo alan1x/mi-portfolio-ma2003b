@@ -113,8 +113,8 @@ case-02-discriminant-analysis/
 
 ```bash
 git clone https://github.com/alan1x/mi-portfolio-ma2003b.git
-cd case-02-discriminant-analysis/notebooks
-jupyter notebook notebooks/discriminant_analysis.ipynb
+cd mi-portfolio-ma2003b/case-02-discriminant-analysis/notebooks
+jupyter notebook discriminant_analysis.ipynb
 ```
 
 ## Additional Documentation

@@ -90,5 +90,5 @@ pip install -r requirements.txt
 ## Contributors
 
 <a href="https://github.com/alan1x/mi-portfolio-ma2003b/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=alan1x/mi-portfolio-ma2003b" />
+  <img src="https://contrib.rocks/image?repo=alan1x/mi-portfolio-ma2003b&anon=1&max=10" />
 </a>

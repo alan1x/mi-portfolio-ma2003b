@@ -80,17 +80,15 @@ cd mi-portfolio-ma2003b
 conda create -n ma2003b python=3.11
 conda activate ma2003b
 ```
+
 #### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-
 ## Contributors
 
 <a href="https://github.com/alan1x/mi-portfolio-ma2003b/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=alan1x/mi-portfolio-ma2003b" />
-
-  <img src="https://avatars.githubusercontent.com/u/142256106?s=64&v=4" />
 </a>

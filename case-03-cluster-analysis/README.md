@@ -168,5 +168,5 @@ case-03-customer-segmentation/
 
 - Executive Summary.
 - Executive Presentation.
-- [Video Presentation] https://www.youtube.com/watch?v=rAJPLJSGFJs
+- [Video Presentation]  https://www.youtube.com/watch?v=rAJPLJSGFJs
 ```

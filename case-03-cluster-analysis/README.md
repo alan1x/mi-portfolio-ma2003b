@@ -97,7 +97,7 @@ Identify distinct customer segments based on 9 behavioral variables to:
 
 ---
 
-## ▶ How to Run
+## How to Run
 
 ```bash
 git clone <repository-url>

@@ -121,3 +121,4 @@ jupyter notebook notebooks/discriminant_analysis.ipynb
 
 - Executive Summary.
 - Executive Presentation.
+- [Video Presentation](https://www.youtube.com/watch?v=bJR90WkXF4w)

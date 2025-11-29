@@ -52,12 +52,43 @@
 - Version Control:
   Managing notebook conflicts in git.
 
-## Setup
+## Setup and Dependencies
+
+### Prerequisites
+
+Before running the project, ensure you have the following installed:
+
+- **Python** >= 3.10
+- **pip** >= 23.0
+- **Git**
+- **Jupyter Notebook** or **JupyterLab**
+
+### Installation
+
+#### 1. Clone repository
+
+```bash
+git clone https://github.com/alan1x/mi-portfolio-ma2003b.git
+cd mi-portfolio-ma2003b
+```
+
+#### 2. Create virtual environment (recommended)
+
+**Using `conda`**
+
+```bash
+conda create -n ma2003b python=3.11
+conda activate ma2003b
+```
+
+#### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Contributors
 
 <a href="https://github.com/alan1x/mi-portfolio-ma2003b/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=alan1x/mi-portfolio-ma2003b" />
-
-  <img src="https://avatars.githubusercontent.com/u/142256106?s=64&v=4" />
 </a>

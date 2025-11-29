@@ -223,3 +223,4 @@ jupyter notebook factor_analysis.ipynb
 
 - Executive report.
 - Executive presentation.
+- [Video Presentation](https://youtu.be/JVRcet3rTSM)

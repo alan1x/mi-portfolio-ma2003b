@@ -215,8 +215,8 @@ case-01-factor-analysis/
 
 ```bash
 git clone https://github.com/alan1x/mi-portfolio-ma2003b.git
-cd case-01-factor-analysis/notebooks
-jupyter notebook notebooks/factor_analysis.ipynb
+cd mi-portfolio-ma2003b/case-01-factor-analysis/notebooks
+jupyter notebook factor_analysis.ipynb
 ```
 
 ### **Additional Documentation**

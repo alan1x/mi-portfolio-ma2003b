@@ -119,5 +119,5 @@ jupyter notebook notebooks/discriminant_analysis.ipynb
 
 ## Additional Documentation
 
-- Executive Summary
-- Executive Presentation
+- Executive Summary.
+- Executive Presentation.

@@ -16,10 +16,10 @@ Build predictive models capable of:
 
 ### Implemented Techniques
 
-| Model                                     | Description                                                              |
-| ----------------------------------------- | ------------------------------------------------------------------------ |
+| Model                                     | Description                                                                    |
+| ----------------------------------------- | ------------------------------------------------------------------------------ |
 | **LDA** (Linear Discriminant Analysis)    | Assumes equal covariance between classes, generates linear decision boundaries |
-| **QDA** (Quadratic Discriminant Analysis) | Allows different covariances per class, generates quadratic boundaries   |
+| **QDA** (Quadratic Discriminant Analysis) | Allows different covariances per class, generates quadratic boundaries         |
 
 ### Analysis Workflow
 
@@ -38,20 +38,20 @@ The file `credit_risk_data-1.csv` contains 2,500 records with the following vari
 
 ### Predictor Variables
 
-| Variable                | Description                                       |
-| ----------------------- | ------------------------------------------------- |
-| `loan_amount`           | Requested loan amount ($5,000 - $500,000)         |
-| `annual_income`         | Applicant's annual income                         |
-| `credit_score`          | Credit score                                      |
-| `payment_history_score` | Previous payment history                          |
-| `debt_to_income_ratio`  | Debt-to-income ratio                              |
-| `job_stability_score`   | Job stability                                     |
-| `credit_utilization`    | Percentage of available credit used               |
-| `employment_years`      | Years of employment                               |
-| `asset_value`           | Asset value                                       |
-| `savings_ratio`         | Savings ratio                                     |
-| `age`                   | Applicant's age                                   |
-| `residential_stability` | Residential stability                             |
+| Variable                | Description                               |
+| ----------------------- | ----------------------------------------- |
+| `loan_amount`           | Requested loan amount ($5,000 - $500,000) |
+| `annual_income`         | Applicant's annual income                 |
+| `credit_score`          | Credit score                              |
+| `payment_history_score` | Previous payment history                  |
+| `debt_to_income_ratio`  | Debt-to-income ratio                      |
+| `job_stability_score`   | Job stability                             |
+| `credit_utilization`    | Percentage of available credit used       |
+| `employment_years`      | Years of employment                       |
+| `asset_value`           | Asset value                               |
+| `savings_ratio`         | Savings ratio                             |
+| `age`                   | Applicant's age                           |
+| `residential_stability` | Residential stability                     |
 
 ### Target Variable
 
@@ -61,13 +61,13 @@ The file `credit_risk_data-1.csv` contains 2,500 records with the following vari
 
 ### Top 5 Risk Predictors (based on LDA coefficients)
 
-| Variable              | Coefficient | Interpretation                       |
-| --------------------- | ----------- | ------------------------------------ |
-| Payment History Score | -15.54      | Poor history increases risk          |
-| Job Stability Score   | -13.07      | Job instability increases risk       |
-| Credit Utilization    | +11.64      | High utilization indicates risk      |
-| Debt-to-Income Ratio  | +4.51       | High relative debt increases risk    |
-| Credit Score          | -3.94       | Low score correlates with default    |
+| Variable              | Coefficient | Interpretation                    |
+| --------------------- | ----------- | --------------------------------- |
+| Payment History Score | -15.54      | Poor history increases risk       |
+| Job Stability Score   | -13.07      | Job instability increases risk    |
+| Credit Utilization    | +11.64      | High utilization indicates risk   |
+| Debt-to-Income Ratio  | +4.51       | High relative debt increases risk |
+| Credit Score          | -3.94       | Low score correlates with default |
 
 ### Model Results
 
@@ -111,12 +111,14 @@ case-02-discriminant-analysis/
 
 ## How to run
 
-```
-git clone <https://github.com/alan1x/mi-portfolio-ma2003b.git>
-cd case-02-discriminant-analysis/notebooks
-jupyter notebook notebooks/discriminant_analysis.ipynb
+```bash
+git clone https://github.com/alan1x/mi-portfolio-ma2003b.git
+cd mi-portfolio-ma2003b/case-02-discriminant-analysis/notebooks
+jupyter notebook discriminant_analysis.ipynb
 ```
 
 ## Additional Documentation
-- Executive Summary
-- Executive Presentation
+
+- Executive Summary.
+- Executive Presentation.
+- [Video Presentation](https://www.youtube.com/watch?v=bJR90WkXF4w)

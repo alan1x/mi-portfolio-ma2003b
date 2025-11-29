@@ -1,7 +1,6 @@
+# MegaMart Customer Segmentation
 
-#  MegaMart Customer Segmentation
-
-##  Project Description
+## Project Description
 
 This project implements a **customer segmentation system** for **MegaMart**, a national retail chain. Using **unsupervised clustering techniques** (K-means and hierarchical clustering), the goal is to identify natural behavioral groups among 3,000 active customers to:
 
@@ -11,20 +10,20 @@ This project implements a **customer segmentation system** for **MegaMart**, a n
 
 ---
 
-##  Objective
+## Objective
 
 Identify distinct customer segments based on 9 behavioral variables to:
 
-- Enhance targeting in marketing campaigns  
-- Reduce customer churn  
-- Increase conversion rates and engagement  
-- Personalize the customer experience based on profile  
+- Enhance targeting in marketing campaigns
+- Reduce customer churn
+- Increase conversion rates and engagement
+- Personalize the customer experience based on profile
 
 ---
 
-##  Methodology
+## Methodology
 
-###  Analysis Workflow
+### Analysis Workflow
 
 1. **Data Loading & Exploration**  
    A clean dataset with 3,000 customers and 9 behavioral variables was analyzed. No missing values were found.
@@ -50,45 +49,49 @@ Identify distinct customer segments based on 9 behavioral variables to:
 
 ---
 
-##  Discovered Segments
+## Discovered Segments
 
-| Segment Name                | % Customers | Profile Description                         |
-|-----------------------------|-------------|----------------------------------------------|
-| High-Value Loyalists        | 17.5%       | Frequent shoppers, high spend, very loyal    |
-| Low-Engagement Browsers     | 31.0%       | Browse often, purchase rarely                |
-| Growth-Potential Customers  | 14.4%       | Moderate frequency, strong upsell potential  |
-| Consistent Moderates        | 37.1%       | Steady spenders with medium activity         |
+| Segment Name               | % Customers | Profile Description                         |
+| -------------------------- | ----------- | ------------------------------------------- |
+| High-Value Loyalists       | 17.5%       | Frequent shoppers, high spend, very loyal   |
+| Low-Engagement Browsers    | 31.0%       | Browse often, purchase rarely               |
+| Growth-Potential Customers | 14.4%       | Moderate frequency, strong upsell potential |
+| Consistent Moderates       | 37.1%       | Steady spenders with medium activity        |
 
 ---
 
-##  Marketing Recommendations
+## Marketing Recommendations
 
 ### 1. High-Value Loyalists
-- VIP loyalty program with exclusive rewards  
-- Personalized recommendations via email  
-- Assign dedicated account managers  
+
+- VIP loyalty program with exclusive rewards
+- Personalized recommendations via email
+- Assign dedicated account managers
 
 ### 2. Low-Engagement Browsers
-- Cart abandonment emails with discounts  
-- First-purchase incentives ($10 off)  
-- Improve product information and reviews  
+
+- Cart abandonment emails with discounts
+- First-purchase incentives ($10 off)
+- Improve product information and reviews
 
 ### 3. Growth-Potential Customers
-- Frequency-based offers (e.g., buy 3 times → 20% off)  
-- Curated bundles  
-- Fast-track them to VIP tier  
+
+- Frequency-based offers (e.g., buy 3 times → 20% off)
+- Curated bundles
+- Fast-track them to VIP tier
 
 ### 4. Consistent Moderate Shoppers
-- Cross-sell campaigns to increase AOV  
-- Weekly personalized email offers  
-- Expand category interest with recommendations  
+
+- Cross-sell campaigns to increase AOV
+- Weekly personalized email offers
+- Expand category interest with recommendations
 
 ---
 
-##  Expected Impact
+## Expected Impact
 
 | Metric                        | Before | Projected | Improvement |
-|-------------------------------|--------|-----------|-------------|
+| ----------------------------- | ------ | --------- | ----------- |
 | Email open rate               | 44%    | 61%       | +40%        |
 | Conversion rate               | 12%    | 14.4%     | +20%        |
 | High-value customer churn     | 15%    | 11.25%    | -25%        |
@@ -107,7 +110,7 @@ jupyter notebook mega_mart.ipynb
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
 case-03-customer-segmentation/
@@ -162,5 +165,6 @@ case-03-customer-segmentation/
 
 ##  Additional Documentation
 
-- Executive Summary (PDF)  
-- Executive Presentation Slides  
+- Executive Summary.
+- Executive Presentation.
+```
